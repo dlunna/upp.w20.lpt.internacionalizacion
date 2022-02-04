@@ -43,20 +43,32 @@
       <li>Creación de una red de investigación científica sobre cambio climático.</li>
     </ul>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <a href="./images/xint2.jpg">
-            <img src="./images/xint2.jpg" alt="Estudiantes de Ingeniería Financiera, rumbo a la Universidad de Santander en Colombia" class="img-fluid rounded">
-          </a>
-        </div>
-        <div class="col-sm">
-          <a href="./images/xint4.jpg">
-            <img src="./images/xint4.jpg" alt="Estudiantes de la UPP, particantes de la convocatoria Grupo UNIS, en la ciudad de Varghinia, Brasil" class="img-fluid rounded">
-          </a>
-        </div>
-      </div>
-    </div>
+
+    <?php
+            if ($vedae == 0) {
+              echo '
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <a href="./images/xint2.jpg">
+                      <img src="./images/xint2.jpg" alt="Estudiantes de Ingeniería Financiera, rumbo a la Universidad de Santander en Colombia" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <div class="col-sm">
+                    <a href="./images/xint4.jpg">
+                      <img src="./images/xint4.jpg" alt="Estudiantes de la UPP, particantes de la convocatoria Grupo UNIS, en la ciudad de Varghinia, Brasil" class="img-fluid rounded">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+
+              ';
+            }
+    ?>
+
+
 
     <br>
     <br>
